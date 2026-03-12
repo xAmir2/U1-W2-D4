@@ -94,8 +94,8 @@ console.log(check3and7(7));
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const reverseString = function (EPICODE) {
-  return EPICODE.split("").reverse().join("");
+const reverseString = function (string) {
+  return string.split("").reverse().join("");
 };
 console.log(reverseString("EPICODE"));
 
