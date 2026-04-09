@@ -66,14 +66,13 @@ console.log(boundary(19));
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 const epify = function (string) {
-  string = "EPICODE is a school to help you getting into IT.";
   if (string.startsWith("EPICODE")) {
     return string;
   } else {
     return "EPICODE " + string;
   }
 };
-console.log(epify());
+console.log(epify("EPICODE is a school to help you getting into IT."));
 
 /* ESERCIZIO 6
  Scrivi una funzione di nome "check3and7" che accetta un numero positivo come parametro. La funzione deve controllare che il parametro sia un multiplo
@@ -137,6 +136,6 @@ const giveMeRandom = function (n) {
     const randomGen = Math.floor(Math.random() * 11);
     array.push(randomGen);
   }
+  console.log(array);
 };
 giveMeRandom(10);
-console.log(array);
